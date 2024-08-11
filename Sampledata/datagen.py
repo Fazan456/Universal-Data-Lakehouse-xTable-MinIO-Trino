@@ -31,7 +31,7 @@ def get_orders_data(customer_ids, order_data_sample_size=3):
         try:
             order_id = uuid.uuid4().__str__()
             customer_id = random.choice(customer_ids)
-            order_data {
+            order_data = {
                 "order_id": order_id,
                 "name": faker.text(max_nb_chars=20),
                 "order_value": random.randint(10, 1000).__str__(),
