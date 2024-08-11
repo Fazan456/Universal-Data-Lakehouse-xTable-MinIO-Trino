@@ -33,4 +33,4 @@ spark-submit \
     --hoodie-conf 'hoodie.datasource.hive_sync.database=default' \
     --hoodie-conf 'hoodie.datasource.hive_sync.table=bronze_orders' \
     --hoodie-conf 'hoodie.datasource.write.hive_style_partitioning=true'
-    --conf spark.driver.bindAddress=192.168.8.174
+    --conf spark.driver.bindAddress=127.0.0.1
